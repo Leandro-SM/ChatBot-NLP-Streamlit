@@ -10,7 +10,7 @@ from spacy.matcher import Matcher
 
 @st.cache_resource
 def load_model():
-    return spacy.load("pt_core_news_lg")
+    return spacy.load("pt_core_news_sm")
 
 nlp = load_model()
 
